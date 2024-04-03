@@ -25,22 +25,13 @@ public class searchStepDef {
 	searchObj spo = new searchObj(driver);
 	JavascriptExecutor jse = (JavascriptExecutor) driver;
 	TestRailManager testrail = new TestRailManager();
-	static Logger log = Logger.getLogger(loginStepDef.class);
+	static Logger log = Logger.getLogger(searchStepDef.class);
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 	PropertyFile propp = new PropertyFile();
 	Properties p = propp.propertyf();
 	CommonFunctions cmf= new CommonFunctions();
 
 	//	Step Definitions
-
-
-	@Then("user click on search input box")
-	public void user_click_on_search_input_box() {
-	   
-		wait.until(ExpectedConditions.visibilityOf(spo.closeSearchImg));
-		wait.until(ExpectedConditions.elementToBeClickable(spo.closeSearchImg));
-		spo.click_close_search_image();
-	}
 
 	@Then("user enter search term {string}")
 	public void user_enter_search_term(String searchterm) {
@@ -53,12 +44,28 @@ public class searchStepDef {
 	@Then("user click on search button")
 	public void user_click_on_search_button() {
 	   
-		
+		wait.until(ExpectedConditions.visibilityOf(spo.submitSearchBtn));
+		wait.until(ExpectedConditions.elementToBeClickable(spo.submitSearchBtn));
+		spo.click_submit_search_image();
 	}
 
 	@Then("verify search result title with search term {string}")
-	public void verify_search_result_title_with_search_term(String string) {
+	public void verify_search_result_title_with_search_term(String searchterm) {
 	    
+		wait.until(ExpectedConditions.visibilityOf(spo.searchResultTitle));
+		String actualText = spo.get_search_result_title();
+		log.info("Expected Search result title is : "+searchterm);
+		log.info("Actual Search result title is : "+ actualText);
+
+		if(actualText.contains(searchterm)) {
+			System.out.println("Search result verified");
+			log.info("Search result verified");
+//			testrail.addResultsToTestrail("Pass","448458", "Search result verified");
+		}else {
+			System.out.println("Search result not verified");
+			log.info("Search result not verified");
+//			testrail.addResultsToTestrail("Fail","448458", "Search result not verified");
+		}
 		
 	}
 

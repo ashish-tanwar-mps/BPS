@@ -10,5 +10,5 @@ Scenario Outline: Verification of Login Functionality for BPS
    
    Examples: 
    |title|username|password|
-   |Sign in to BPS Website|xyz|123|
+   |Sign in to Highwire logon|Elisa Legend|balloons2|
  

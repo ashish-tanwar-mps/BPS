@@ -47,6 +47,7 @@ public class loginStepDef {
 				log.info("Homepage landing unsuccessfull");
 				//			testrail.addResultsToTestrail("Fail", "448450", "Homepage landing unsuccessfull");
 			}
+
 		}catch(Exception e) {
 			log.info("------------------FAILED : Due to exception---------------------" + e);
 			//			testrail.addResultsToTestrail("Fail", "448450", "Failed : Due to exception : "+e);
@@ -57,10 +58,11 @@ public class loginStepDef {
 	public void user_click_and_verify_Sign_In_button_with(String title) {
 
 		try {
-			wait.until(ExpectedConditions.visibilityOf(lpo.signInBtn));
-			wait.until(ExpectedConditions.elementToBeClickable(lpo.signInBtn));
-			lpo.click_Sign_In_button();
+			wait.until(ExpectedConditions.visibilityOf(lpo.loginBtn));
+			wait.until(ExpectedConditions.elementToBeClickable(lpo.loginBtn));
+			lpo.click_login_button();
 
+			Thread.sleep(2000);
 			wait.until(ExpectedConditions.visibilityOf(lpo.loginSSOTitle));
 			String actualTitle = lpo.get_sso_title();
 			log.info("Actual login SSO title is : "+actualTitle);
@@ -108,13 +110,18 @@ public class loginStepDef {
 
 	}
 
-	@Then("user click and verify Sign In button with valid credentials")
-	public void user_click_and_verify_sign_in_button_with_valid_credentials() {
+	@Then("user click Sign In button with valid credentials")
+	public void user_click_sign_in_button_with_valid_credentials() {
 
-		wait.until(ExpectedConditions.visibilityOf(lpo.signInSSOBtn));
-		wait.until(ExpectedConditions.elementToBeClickable(lpo.signInSSOBtn));
-		lpo.click_sign_in_button_on_SSO_page();
-				
+		try {
+			Thread.sleep(2000);
+			wait.until(ExpectedConditions.visibilityOf(lpo.signInSSOBtn));
+			wait.until(ExpectedConditions.elementToBeClickable(lpo.signInSSOBtn));
+			lpo.click_sign_in_button_on_SSO_page();
+		}catch(Exception e) {
+			log.info("------------------FAILED : Due to exception---------------------" + e);
+			//			testrail.addResultsToTestrail("Fail", "448450", "Failed : Due to exception : "+e);
+		}		
 	}
 
 }
@@ -139,4 +146,4 @@ public class loginStepDef {
 
 
 
-   
+

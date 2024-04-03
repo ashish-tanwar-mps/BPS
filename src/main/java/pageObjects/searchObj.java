@@ -23,22 +23,30 @@ public class searchObj {
 
 	//	Web Elements
 
-	@FindBy(xpath="//img[@alt='Close Search']")
-	public WebElement closeSearchImg;
+	@FindBy(xpath="//input[@id='edit-submit-search']")
+	public WebElement submitSearchBtn;
 	
-	@FindBy(xpath="//input[@id='search-desktop']")
+	@FindBy(xpath="//input[@id='edit-query']")
 	public WebElement searchInputBox;
+	
+	@FindBy(xpath="//div[@class='col-12 col-medium-tablet-8 col-desktop-9']//h3")
+	public WebElement searchResultTitle;
 
 	//	WebElement Functions
+	
+	public String get_search_result_title() {
+		String text = searchResultTitle.getText();
+		return text;
+	}
 	
 	public void enter_search_term(String searchterm) {
 		searchInputBox.sendKeys(searchterm);
 		log.info("Search term entered");
 	}
 	
-	public void click_close_search_image() {
-		closeSearchImg.click();
-		log.info("Close search Image clicked");
+	public void click_submit_search_image() {
+		submitSearchBtn.click();
+		log.info("Search button clicked");
 	}
 
 }

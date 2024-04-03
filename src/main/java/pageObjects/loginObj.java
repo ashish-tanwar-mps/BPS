@@ -24,11 +24,11 @@ public class loginObj {
 
 	//	Web Elements
 
-	@FindBy(xpath="//div[@class='headerMain_logo__2a54q']")
+	@FindBy(xpath="//section[@id='block-sitebranding2svg']")
 	public WebElement headerLogo;
 
-	@FindBy(xpath="//li[@class='navItem__Wrapper-sc-dit0ro-0 bFupPG headerMain_login-desktop__QjhiW']//a[@class='navLink__Wrapper-sc-1pfvi6y-0 diFODa' and normalize-space()='Sign in']")
-	public WebElement signInBtn;
+	@FindBy(xpath="//a[@class='dropdown-toggle user__icon']")
+	public WebElement loginBtn;
 	
 	@FindBy(xpath="//h1")
 	public WebElement loginSSOTitle;
@@ -65,9 +65,9 @@ public class loginObj {
 		return text;
 	}
 
-	public void click_Sign_In_button() {
-		signInBtn.click();
-		log.info("Sign In button clicked");
+	public void click_login_button() {
+		loginBtn.click();
+		log.info("Log In button clicked");
 	}
 
 }
