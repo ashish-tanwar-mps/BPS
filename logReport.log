@@ -1,0 +1,146 @@
+2024-05-02 11:16:32,084 INFO  [loginStepDef] User successfully land on homepage 
+2024-05-02 11:16:36,583 INFO  [articleContentStepDef] Cookies Accepted 
+2024-05-02 11:16:41,961 INFO  [loginObj] Log In button clicked 
+2024-05-02 11:16:49,979 INFO  [loginStepDef] Actual login SSO title is : Sign in to Highwire logon 
+2024-05-02 11:16:49,979 INFO  [loginStepDef] Expected login SSO title is : Sign in to Highwire logon 
+2024-05-02 11:16:49,979 INFO  [loginStepDef] Sign In button verified 
+2024-05-02 11:16:55,011 INFO  [loginObj] Username entered 
+2024-05-02 11:16:55,670 INFO  [loginObj] Password entered 
+2024-05-02 11:16:58,552 INFO  [loginObj] Sign in button SSO page clicked 
+2024-05-02 11:17:13,404 INFO  [searchObj] Search term entered 
+2024-05-02 11:17:16,361 INFO  [searchObj] Search button clicked 
+2024-05-02 11:17:16,941 INFO  [searchStepDef] Expected Search result title is : In what ways will AI enhance psychometric testing in the workplace? 
+2024-05-02 11:17:16,941 INFO  [searchStepDef] Actual Search result title is : Your search for In what ways will AI enhance psychometric testing in the workplace? returned 1 result 
+2024-05-02 11:17:16,941 INFO  [searchStepDef] Search result verified 
+2024-05-02 11:17:17,547 INFO  [articleContentStepDef]  Xpath is : //div[@class='col-12 favorite-right']//a[@title='In what ways will AI enhance psychometric testing in the workplace?'] 
+2024-05-02 11:17:24,850 INFO  [articleContentStepDef] Searched article clicked successfully 
+2024-05-02 11:17:30,632 INFO  [articleContentStepDef] Actual article title is : In what ways will AI enhance psychometric testing in the workplace? 
+2024-05-02 11:17:30,632 INFO  [articleContentStepDef] Expected article title is :In what ways will AI enhance psychometric testing in the workplace? 
+2024-05-02 11:17:30,633 INFO  [articleContentStepDef] Article titles matched 
+2024-05-02 11:17:31,279 INFO  [articleContentStepDef] Actual Author name : Herbert, Niamh 
+2024-05-02 11:17:31,279 INFO  [articleContentStepDef] Expected Author name is : Herbert, Niamh 
+2024-05-02 11:17:31,279 INFO  [articleContentStepDef] Author name matched 
+2024-05-02 11:17:31,883 INFO  [articleContentStepDef] Actual DOI link is : https://doi.org/10.53841/bpsadm.2024.16.1.24 
+2024-05-02 11:17:31,883 INFO  [articleContentStepDef] Expected DOI Link is : https://doi.org/10.53841/bpsadm.2024.16.1.24 
+2024-05-02 11:17:31,883 INFO  [articleContentStepDef] DOI Link matched 
+2024-05-02 11:17:32,476 INFO  [articleContentStepDef] Page scrolled 
+2024-05-02 11:17:37,073 INFO  [articleContentObj] Add to favourites button clicked 
+2024-05-02 11:17:37,227 INFO  [articleContentStepDef] favourite button text is : Favourite 
+2024-05-02 11:17:37,228 INFO  [articleContentStepDef] Add to Favourite button Verified 
+2024-05-02 11:17:37,767 INFO  [articleContentStepDef] Page scrolled 
+2024-05-02 11:17:40,073 INFO  [articleContentObj] Favourite button clicked 
+2024-05-02 11:17:43,631 INFO  [articleContentObj] Manage favourite button clicked 
+2024-05-02 11:17:43,771 INFO  [articleContentStepDef] Actual manage Favourite Title is : Manage your favourites 
+2024-05-02 11:17:43,771 INFO  [articleContentStepDef] Manage your favourite section Verified 
+2024-05-02 11:17:45,415 INFO  [articleContentStepDef] Back button pressed 
+2024-05-02 11:17:45,533 INFO  [articleContentStepDef] Page scrolled 
+2024-05-02 11:17:45,901 INFO  [articleContentObj] Favourite button clicked 
+2024-05-02 11:17:48,057 INFO  [articleContentObj] Remove favourite button clicked 
+2024-05-02 11:17:48,301 INFO  [articleContentStepDef] Remove from favourite section Verified 
+2024-05-02 11:17:49,171 INFO  [articleContentObj] Cite button clicked 
+2024-05-02 11:17:49,222 INFO  [articleContentStepDef] Cite label text is : Cite 
+2024-05-02 11:17:49,222 INFO  [articleContentStepDef] Cite action toolbar Verified 
+2024-05-02 11:17:49,769 INFO  [CommonFunctions] ********WebLink titles*************************** 
+2024-05-02 11:17:49,813 INFO  [CommonFunctions] Weblink Title :BibTeX 
+2024-05-02 11:17:49,833 INFO  [CommonFunctions] Weblink Title :Medlars 
+2024-05-02 11:17:49,850 INFO  [CommonFunctions] Weblink Title :RIS 
+2024-05-02 11:17:49,850 INFO  [CommonFunctions] ********Weblink titles printed*************************** 
+2024-05-02 11:17:52,156 INFO  [articleContentObj] Cite modal close button clicked 
+2024-05-02 11:17:54,468 INFO  [articleContentObj] Share button clicked 
+2024-05-02 11:17:54,548 INFO  [articleContentStepDef] Actual Title is : Share 
+2024-05-02 11:17:54,548 INFO  [articleContentStepDef] Share action toolbar Verified 
+2024-05-02 11:17:55,100 INFO  [articleContentStepDef] Xpath is : //a[@class='a2a_button_facebook'] 
+2024-05-02 11:17:57,173 INFO  [articleContentStepDef] Actual Title is :https://explore.bps.org.uk/#facebook 
+2024-05-02 11:17:57,173 INFO  [articleContentStepDef] Expected title is : facebook 
+2024-05-02 11:17:57,174 INFO  [articleContentStepDef] Share social media title for facebook verified 
+2024-05-02 11:17:57,747 INFO  [articleContentStepDef] Xpath is : //a[@class='a2a_button_twitter'] 
+2024-05-02 11:17:59,842 INFO  [articleContentStepDef] Actual Title is :https://explore.bps.org.uk/#twitter 
+2024-05-02 11:17:59,842 INFO  [articleContentStepDef] Expected title is : twitter 
+2024-05-02 11:17:59,843 INFO  [articleContentStepDef] Share social media title for twitter verified 
+2024-05-02 11:18:00,899 INFO  [articleContentStepDef] Xpath is : //a[@class='a2a_button_linkedin'] 
+2024-05-02 11:18:02,962 INFO  [articleContentStepDef] Actual Title is :https://explore.bps.org.uk/#linkedin 
+2024-05-02 11:18:02,962 INFO  [articleContentStepDef] Expected title is : linkedin 
+2024-05-02 11:18:02,962 INFO  [articleContentStepDef] Share social media title for linkedin verified 
+2024-05-02 11:18:03,790 INFO  [articleContentObj] Share modal closed 
+2024-05-02 11:18:04,358 INFO  [articleContentStepDef] Alert Button text on first run is : Alerts 
+2024-05-02 11:18:06,652 INFO  [articleContentObj] Alert button clicked 
+2024-05-02 11:19:06,771 INFO  [articleContentStepDef] Failed : Due to exceptionorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (86c8e2ae-d62e-4f6e-af8b-59ea21389dfb)] -> xpath: //a[@class='highwire-modal-trigger']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:30424, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8572, moz:profile: C:\Users\Ashish\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30424/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86c8e2ae-d62e-4f6e-af8b-59ea21389dfb 
+2024-05-02 11:19:10,686 INFO  [articleContentObj] Alert button clicked 
+2024-05-02 11:19:13,645 INFO  [articleContentObj] Manage alert button clicked 
+2024-05-02 11:19:17,412 INFO  [articleContentStepDef] Newest first sorting selected 
+2024-05-02 11:19:22,497 INFO  [articleContentStepDef] Actual article name on manage alert page is : The Coaching Psychologist 
+2024-05-02 11:19:22,497 INFO  [articleContentStepDef] Expected article name on manage alert page is : null 
+2024-05-02 11:19:22,497 INFO  [articleContentStepDef] Article Names on Manage alert page not matched 
+2024-05-02 11:19:23,775 INFO  [articleContentStepDef] Back button pressed 
+2024-05-02 11:20:24,032 INFO  [articleContentStepDef] Failed : Due to exceptionorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='action-permissions']' (tried for 60 second(s) with 500 milliseconds interval) 
+2024-05-02 11:20:27,281 INFO  [articleContentStepDef] Failed : Due to exceptionorg.openqa.selenium.NoSuchElementException: Unable to locate element: //h6[@class='article__fullname']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [86c8e2ae-d62e-4f6e-af8b-59ea21389dfb, findElement {using=xpath, value=//h6[@class='article__fullname']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:30424, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8572, moz:profile: C:\Users\Ashish\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30424/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86c8e2ae-d62e-4f6e-af8b-59ea21389dfb 
+2024-05-02 11:20:29,900 INFO  [articleContentStepDef] Failed : Due to exceptionorg.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='accordion-button collapsed article__accordian_wrapper']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [86c8e2ae-d62e-4f6e-af8b-59ea21389dfb, findElement {using=xpath, value=//button[@class='accordion-button collapsed article__accordian_wrapper']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:30424, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8572, moz:profile: C:\Users\Ashish\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30424/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86c8e2ae-d62e-4f6e-af8b-59ea21389dfb 
+2024-05-02 11:20:32,462 INFO  [articleContentStepDef] Verifying element in the related content section 
+2024-05-02 11:20:32,462 INFO  [articleContentStepDef] a1: print :Motivation questionnaire 
+2024-05-02 11:20:32,462 INFO  [articleContentStepDef] a1: print :The fair and appropriate testing of disabled candidates using psychological testing 
+2024-05-02 11:20:32,462 INFO  [articleContentStepDef] a1: print :Candidate reported usage and opinion of psychometric testing in the UK recruitment market 
+2024-05-02 11:20:32,462 INFO  [articleContentStepDef] a1: print :Talent management and managing a continuing professional development session 
+2024-05-02 11:20:32,462 INFO  [articleContentStepDef] a1: print :10x Personality 
+2024-05-02 11:20:35,476 INFO  [CommonFunctions] ********Resource Pdf titles*************************** 
+2024-05-02 11:20:35,476 INFO  [articleContentStepDef] a3===[Motivation questionnaire, The fair and appropriate testing of disabled candidates using psychological testing, Candidate reported usage and opinion of psychometric testing in the UK recruitment market, Talent management and managing a continuing professional development session, 10x Personality] 
+2024-05-02 11:20:35,476 INFO  [articleContentStepDef] a2== [] 
+2024-05-02 11:20:35,476 INFO  [articleContentStepDef] Related content section not verified 
+2024-05-02 11:20:36,460 INFO  [articleContentStepDef] a3===[Motivation questionnaire, The fair and appropriate testing of disabled candidates using psychological testing, Candidate reported usage and opinion of psychometric testing in the UK recruitment market, Talent management and managing a continuing professional development session, 10x Personality] 
+2024-05-02 11:20:36,460 INFO  [articleContentStepDef] a2== [] 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Psychometric testing 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :AI 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Efficiency 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Accuracy 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Fairness 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Machine learning 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Data analytics 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Candidate selection 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Talent management 
+2024-05-02 11:20:36,465 INFO  [articleContentStepDef] a1: print :Employee development 
+2024-05-02 11:20:39,547 INFO  [CommonFunctions] ********Resource Pdf titles*************************** 
+2024-05-02 11:20:39,548 INFO  [articleContentStepDef] a3===[Psychometric testing, AI, Efficiency, Accuracy, Fairness, Machine learning, Data analytics, Candidate selection, Talent management, Employee development] 
+2024-05-02 11:20:39,548 INFO  [articleContentStepDef] a2== [] 
+2024-05-02 11:20:39,548 INFO  [articleContentStepDef] Keywords content not verified 
+2024-05-02 11:20:40,106 INFO  [articleContentStepDef] a3===[Psychometric testing, AI, Efficiency, Accuracy, Fairness, Machine learning, Data analytics, Candidate selection, Talent management, Employee development] 
+2024-05-02 11:20:40,108 INFO  [articleContentStepDef] a2== [] 
+2024-05-02 11:20:40,118 INFO  [articleContentStepDef] a1: print :Introduction 
+2024-05-02 11:20:40,118 INFO  [articleContentStepDef] a1: print :Abstract 
+2024-05-02 11:20:40,118 INFO  [articleContentStepDef] a1: print :Enhancing psychometric testing in the workplace 
+2024-05-02 11:20:40,118 INFO  [articleContentStepDef] a1: print :The risks 
+2024-05-02 11:20:40,118 INFO  [articleContentStepDef] a1: print :Important considerations 
+2024-05-02 11:20:40,118 INFO  [articleContentStepDef] a1: print :Conclusion 
+2024-05-02 11:20:40,118 INFO  [articleContentStepDef] a1: print :References 
+2024-05-02 11:20:43,146 INFO  [CommonFunctions] ********Resource Pdf titles*************************** 
+2024-05-02 11:20:43,146 INFO  [articleContentStepDef] a3===[Introduction, Abstract, Enhancing psychometric testing in the workplace, The risks, Important considerations, Conclusion, References] 
+2024-05-02 11:20:43,146 INFO  [articleContentStepDef] a2== [] 
+2024-05-02 11:20:43,146 INFO  [articleContentStepDef] Table of content section not verified 
+2024-05-02 11:20:43,674 INFO  [articleContentStepDef] a3===[Introduction, Abstract, Enhancing psychometric testing in the workplace, The risks, Important considerations, Conclusion, References] 
+2024-05-02 11:20:43,674 INFO  [articleContentStepDef] a2== [] 
+2024-05-02 11:20:43,682 INFO  [articleContentStepDef] Failed : Due to exceptionorg.openqa.selenium.NoSuchElementException: Unable to locate element: //h6[@class='article__fullname']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [86c8e2ae-d62e-4f6e-af8b-59ea21389dfb, findElement {using=xpath, value=//h6[@class='article__fullname']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:30424, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8572, moz:profile: C:\Users\Ashish\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30424/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86c8e2ae-d62e-4f6e-af8b-59ea21389dfb 
+2024-05-02 11:20:44,876 INFO  [articleContentStepDef] Driver closed 
