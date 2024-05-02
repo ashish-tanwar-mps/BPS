@@ -41,16 +41,16 @@ public class loginStepDef {
 			if(lpo.headerLogo.isDisplayed()) {
 				System.out.println("User successfully land on homepage");
 				log.info("User successfully land on homepage");
-				//			testrail.addResultsToTestrail("Pass", "448450", "User successfully land on homepage");
+				testrail.addResultsToTestrail("Pass", "448659", "User successfully land on homepage");
 			}else {
 				System.out.println("Homepage landing unsuccessfull");
 				log.info("Homepage landing unsuccessfull");
-				//			testrail.addResultsToTestrail("Fail", "448450", "Homepage landing unsuccessfull");
+				testrail.addResultsToTestrail("Fail", "448659", "Homepage landing unsuccessfull");
 			}
 
 		}catch(Exception e) {
 			log.info("------------------FAILED : Due to exception---------------------" + e);
-			//			testrail.addResultsToTestrail("Fail", "448450", "Failed : Due to exception : "+e);
+			testrail.addResultsToTestrail("Fail", "448659", "Failed : Due to exception : "+e);
 		}
 	}
 
@@ -62,7 +62,7 @@ public class loginStepDef {
 			wait.until(ExpectedConditions.elementToBeClickable(lpo.loginBtn));
 			lpo.click_login_button();
 
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			wait.until(ExpectedConditions.visibilityOf(lpo.loginSSOTitle));
 			String actualTitle = lpo.get_sso_title();
 			log.info("Actual login SSO title is : "+actualTitle);
@@ -71,15 +71,15 @@ public class loginStepDef {
 			if(actualTitle.equals(title)) {
 				System.out.println("Sign In button verified");
 				log.info("Sign In button verified");
-				//			testrail.addResultsToTestrail("Pass", "448451", "Sign In button verified");
+				testrail.addResultsToTestrail("Pass", "448660", "Sign In button verified");
 			}else {
 				System.out.println("Sign In button not verified");
 				log.info("Sign In button not verified");
-				//			testrail.addResultsToTestrail("Fail", "448451", "Sign In button not verified");
+				testrail.addResultsToTestrail("Fail", "448660", "Sign In button not verified");
 			}
 		}catch(Exception e) {
 			log.info("------------------FAILED : Due to exception---------------------" + e);
-			//			testrail.addResultsToTestrail("Fail", "448450", "Failed : Due to exception : "+e);
+			testrail.addResultsToTestrail("Fail", "448660", "Failed : Due to exception : "+e);
 		}
 	}
 
@@ -90,9 +90,10 @@ public class loginStepDef {
 			wait.until(ExpectedConditions.visibilityOf(lpo.userName));
 			wait.until(ExpectedConditions.elementToBeClickable(lpo.userName));
 			lpo.enter_username(username);
+			testrail.addResultsToTestrail("Pass", "448664", "Username successfully entered");
 		}catch(Exception e) {
 			log.info("------------------FAILED : Due to exception---------------------" + e);
-			//			testrail.addResultsToTestrail("Fail", "448450", "Failed : Due to exception : "+e);
+			testrail.addResultsToTestrail("Fail", "448664", "Failed : Due to exception : "+e);
 		}
 	}
 
@@ -103,9 +104,10 @@ public class loginStepDef {
 			wait.until(ExpectedConditions.visibilityOf(lpo.passWord));
 			wait.until(ExpectedConditions.elementToBeClickable(lpo.passWord));
 			lpo.enter_password(password);
+			testrail.addResultsToTestrail("Pass", "448665", "Password successfully entered");
 		}catch(Exception e) {
 			log.info("------------------FAILED : Due to exception---------------------" + e);
-			//			testrail.addResultsToTestrail("Fail", "448450", "Failed : Due to exception : "+e);
+			testrail.addResultsToTestrail("Fail", "448665", "Failed : Due to exception : "+e);
 		}
 
 	}
@@ -118,9 +120,10 @@ public class loginStepDef {
 			wait.until(ExpectedConditions.visibilityOf(lpo.signInSSOBtn));
 			wait.until(ExpectedConditions.elementToBeClickable(lpo.signInSSOBtn));
 			lpo.click_sign_in_button_on_SSO_page();
+			testrail.addResultsToTestrail("Pass", "448666", "Sign In button clicked successfully");
 		}catch(Exception e) {
 			log.info("------------------FAILED : Due to exception---------------------" + e);
-			//			testrail.addResultsToTestrail("Fail", "448450", "Failed : Due to exception : "+e);
+			testrail.addResultsToTestrail("Fail", "448666", "Failed : Due to exception : "+e);
 		}		
 	}
 

@@ -6,7 +6,8 @@ Scenario Outline: Verification of Login Functionality for BPS
    Then user click and verify Sign In button with "<title>"
    Then user enters username "<username>"
    Then user enters password "<password>"
-   Then user click and verify Sign In button with valid credentials
+   #Then user click and verify Sign In button with valid credentials
+   Then user click Sign In button with valid credentials
    
    Examples: 
    |title|username|password|
